@@ -45,6 +45,10 @@ async function doAPICall(){
         tr.appendChild(td)
 
         td = document.createElement('td');
+        td.innerText = d.points;
+        tr.appendChild(td)
+
+        td = document.createElement('td');
         td.innerText = d.Driver.nationality;
         tr.appendChild(td)
 
